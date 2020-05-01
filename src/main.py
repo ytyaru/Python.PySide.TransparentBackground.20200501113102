@@ -83,9 +83,9 @@ class GridItem(QtWidgets.QGraphicsRectItem):
         painter.fillRect(widget.rect(), QtGui.QBrush(QtGui.QColor(0,0,0,0), QtCore.Qt.SolidPattern))
         lines = []
         for y in range(self.size+1):
-            lines.append(QtCore.QLineF(0, y*self.scale, self.size*self.scale, y*self.scale))
+            lines.append(QtCore.QLine(0, y*self.scale, self.size*self.scale, y*self.scale))
         for x in range(self.size+1):
-            lines.append(QtCore.QLineF(x*self.scale, 0, x*self.scale, self.size*self.scale))
+            lines.append(QtCore.QLine(x*self.scale, 0, x*self.scale, self.size*self.scale))
         painter.drawLines(lines)
 
 if __name__ == "__main__":
