@@ -27,8 +27,8 @@ Linux raspberrypi 4.19.97-v7l+ #1294 SMP Thu Jan 30 13:21:14 GMT 2020 armv7l GNU
 # Usage
 
 ```sh
-git clone https://github.com/ytyaru/Python.PySide.TransparentBackground.20200501113102
-cd Python.PySide.TransparentBackground.20200501113102/src
+git clone https://github.com/ytyaru/Python.PySide2.TransparentBackground.20200501113102
+cd Python.PySide2.TransparentBackground.20200501113102/src
 ./install.sh
 ./run.sh
 ```
